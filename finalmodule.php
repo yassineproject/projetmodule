@@ -90,9 +90,10 @@ class Finalmodule extends Module {
         $helper->fields_value['MOIS'] = Configuration::get('MOIS');
 
         return $helper->generateForm($fieldsForm);
-
+              
 
 
 
 
 }
+echo "je suis une limace";
